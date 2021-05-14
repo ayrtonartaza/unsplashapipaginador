@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Generator</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <nav
+      class="
+        container
+        min-w-full
+        h-12
+        bg-primary
+        flex
+        items-center
+        justify-between
+      "
+    >
+      <span class="font-Montserrat font-bold text-white-2 text-2xl"
+        >PHOTYou</span
+      >
+      <button
+        class="
+          border-3 border-white
+          rounded-md
+          px-4
+          text-white-2 text-base
+          font-semibold
+        "
+      >
+        Log in
+      </button>
+    </nav>
+
+    <div class="container bg-center mt-4 h-20 px-2 lg:px-24">
+      <form action="" class="flex flex-col items-start">
+        <label for="busqueda" class="font-Montserrat font-medium text-sm"
+          >Search</label
+        >
+        <input
+          type="text"
+          id="busqueda"
+          class="
+            w-full
+            md:w-80
+            border-3 border-secondary
+            rounded-md
+            pl-2
+            h-10
+            focus:outline-none
+          "
+        />
+
+        <button
+          type="submit"
+          id="icon__search"
+          class="outline-none focus:outline-none"
+        ></button>
+      </form>
+    </div>
+
+    <div class="container">
+      <span
+        id="title__cards"
+        class="container px-2 md:px-18 lg:px-24 font-bold text-xl capitalize"
+        >Todas</span
+      >
+    </div>
+
+    <div
+      class="
+        grid grid-cols-1
+        gap-2
+        px-2
+        sm:grid-cols-2
+        md:grid-cols-3
+        lg:gap-4
+        lg:px-24
+        container
+        mt-2
+      "
+      id="container__cards"
+    >
+      
+      </div>
+    </div>
+    <nav
+      id="nav"
+      class="
+        container
+        text-indigo-900
+        container
+        lg:px-24
+        flex flex-wrap
+        justify-center
+      "
+    ></nav>
+     <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+body {
+  background-color: #eeeeee;
+}
+nav {
+  padding: 20px;
+}
+#icon__search {
+  margin-left: 85%;
+  margin-top: -40px;
+  height: 28px;
+  background: url(img/search__icon.svg);
+  background-position: center;
+  background-size: cover;
+  height: 28px;
+  width: 28px;
+}
+.card {
+  width: 100%;
+  border-radius: 8px;
+}
+@media screen and (min-width: 380px) {
+  #icon__search {
+    margin-left: 90%;
+    margin-top: -40px;
+    height: 28px;
+  }
+}
+@media screen and (min-width: 560px) {
+  #icon__search {
+    margin-left: 93%;
+    margin-top: -40px;
+    height: 28px;
+  }
+}
+@media screen and (min-width: 768px) {
+  #icon__search {
+    margin-left: 47%;
+    margin-top: -40px;
+    height: 28px;
+  }
+  nav {
+    padding: 0 8%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #icon__search {
+    margin-left: 360px;
+    margin-top: -40px;
+    height: 28px;
+  }
+  nav {
+    padding: 0 12%;
+  }
+}
